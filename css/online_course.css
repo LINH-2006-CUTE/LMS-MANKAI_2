@@ -295,12 +295,31 @@ border-radius: 8px;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 16px;
-  /* width: 741px;
-  height: 179.25px; */
   display: flex;
   justify-content: space-between;
   overflow: hidden;
   margin-bottom: 24px;
+  position: relative;
+}
+
+.under-img-mankai-card {
+position: absolute;
+
+}
+
+#under-img-mankai-card-small {
+  position: absolute;
+  top: 43px;
+  left: 200px;
+
+}
+
+#under-img-mankai-card-bigger {
+  position: absolute;
+  width: 160.97px;
+  height: 160.97px;
+  top: 3.32px;
+  left: 669.65px;
 }
 
 #kaiwa-AI {
